@@ -12,7 +12,7 @@ public class Main {
         try {
             System.out.println("Division: 20 / 4 = " + calculator.divide(20, 4));
             System.out.println("Division: 10 / 3 = " + calculator.divide(10, 3));
-            System.out.println("Division by zero: " + calculator.divide(5, 0));
+            System.out.println("Division by zero: " + calculator.divide(5, 1));
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         }
@@ -54,7 +54,7 @@ public class Main {
                 break;
         }
 
-        System.out.println("Enter the result " + operationName + " numbers " + a + " и " + b + ":");
+        System.out.println("Enter the result " + operationName + " numbers " + a + " and " + b + ":");
 
         int userAnswer = scanner.nextInt();
 
